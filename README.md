@@ -116,10 +116,10 @@ Software Notes<BR>
 <H3>Reset to Default state</H3>
 Hold the Mode button down while you press and release Reset - erases stored information
 
-<H3>Software Defines<H3>
+<H3>Software Defines</H3>
 The two general defines in the example are: <BR>
 - BC24:<BR>
-Define BC24 if you are using a BC24 ESP32 based device.  There are visual clues for what the ESP32 is doing while provisioning.<BR>
+Define BC24 if you are using a BC24 ESP32 based device.<BR>
 
 - BC24DEBUG:<BR>
 Define BC24DEBUG (by default in the example it is defined) to see lots of debugging information which can help resolve problems and issues.
