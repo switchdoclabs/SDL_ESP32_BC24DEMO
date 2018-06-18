@@ -1,4 +1,4 @@
-<H1>SDL_ESP32_BC24NEO <BR>
+<H1>SDL_ESP32_BC24DEMO <BR>
 BC24 Demonstration Program
 <BR>
 SwitchDoc Labs <BR></H1>
