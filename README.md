@@ -23,12 +23,12 @@ Plug a USB Micro to USB connector into your computer (the one with the power sup
 The Demo program has four different modes:<BR>
 We have four goodies for you right out of the box.
 
-- Rainblow Display Demo (Mode 1)
+- Rainbow Display Demo (Mode 1)
 - Monitor the Dow Jones Average Live! (Mode 2)
 - Blue Theater Chasing Circle (Mode 3)
 - Digital LED Clock (synced with NIST clocks for high accuracy) (Mode 4)
 
-THe program remmebers which mode you pushed last.   Whne you push the mode button, it may take a while before the software recognizes the button push, but it will.  Then it will display the mode number (one green light) and you are now in the new mode.  Note:  Mode 2 and Mode 4 requires a WiFi connection.  Four red lights will flash if you go to 2 or 4 without a WiFi Connection.
+THe program remmebers which mode you pushed last.   Whne you push the mode button, it may take a while before the software recognizes the button push, but it will.  Then it will display the mode number (one green light) and you are now in the new mode.  Note:  Mode 2 and Mode 4 requires a WiFi connection.  FIVE red lights will flash if you go to 2 or 4 without a WiFi Connection.
 
 <H2>Startup</H2>
 
