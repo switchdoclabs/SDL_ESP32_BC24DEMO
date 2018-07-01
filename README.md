@@ -16,7 +16,7 @@ In order to install the Arduino IDE with support for the ESP32 on the BC24, plea
 
 https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-ide
 
-<B>Select the Adafruit ESP32 Feather under Tools</b>
+<B>Select the <i>Adafruit ESP32 Feather</i> under Tools</b>
 
 Plug a USB Micro to USB connector into your computer (the one with the power supply will work) to establish the connection.
 
