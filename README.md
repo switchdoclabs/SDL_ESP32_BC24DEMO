@@ -7,6 +7,7 @@ www.switchdoc.labs<BR>
 <BR>
 <BR>
 
+Version 007  June 30, 2018:   Added Kludge to fix latest ESP32 SDK problem<BR>
 Version 006  June 18, 2018:   Added multiple methods for getting IP addresses from WiFi - Provisioning<BR>
 
 
@@ -16,6 +17,8 @@ In order to install the Arduino IDE with support for the ESP32 on the BC24, plea
 
 https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-ide
 
+<B>Select the <i>Adafruit ESP32 Feather</i> under Tools</b>
+
 Plug a USB Micro to USB connector into your computer (the one with the power supply will work) to establish the connection.
 
 <H2>Description</H2>
@@ -23,12 +26,12 @@ Plug a USB Micro to USB connector into your computer (the one with the power sup
 The Demo program has four different modes:<BR>
 We have four goodies for you right out of the box.
 
-- Rainblow Display Demo (Mode 1)
+- Rainbow Display Demo (Mode 1)
 - Monitor the Dow Jones Average Live! (Mode 2)
 - Blue Theater Chasing Circle (Mode 3)
 - Digital LED Clock (synced with NIST clocks for high accuracy) (Mode 4)
 
-THe program remmebers which mode you pushed last.   Whne you push the mode button, it may take a while before the software recognizes the button push, but it will.  Then it will display the mode number (one green light) and you are now in the new mode.  Note:  Mode 2 and Mode 4 requires a WiFi connection.  Four red lights will flash if you go to 2 or 4 without a WiFi Connection.
+THe program remmebers which mode you pushed last.   Whne you push the mode button, it may take a while before the software recognizes the button push, but it will.  Then it will display the mode number (one green light) and you are now in the new mode.  Note:  Mode 2 and Mode 4 requires a WiFi connection.  FIVE red lights will flash if you go to 2 or 4 without a WiFi Connection.
 
 <H2>Startup</H2>
 
@@ -123,5 +126,4 @@ Define BC24 if you are using a BC24 ESP32 based device.<BR>
 
 - BC24DEBUG:<BR>
 Define BC24DEBUG (by default in the example it is defined) to see lots of debugging information which can help resolve problems and issues.
-
 

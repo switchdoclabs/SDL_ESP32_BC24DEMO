@@ -4,7 +4,7 @@
 //
 //
 
-#define BC24SOFTWAREVERSION "006"
+#define BC24SOFTWAREVERSION "007"
 #undef BC24DEBUG
 #define BC24
 
@@ -52,6 +52,13 @@ bool WiFiPresent = false;
 #include <esp_smartconfig.h>
 
 #define ESP_WPS_MODE WPS_TYPE_PBC
+
+// Kludge for latest ESP32 SDK - July 1, 2018
+
+#define WPS_CONFIG_INIT_DEFAULT(type) { \
+    .wps_type = type, \
+    .crypto_funcs = &g_wifi_default_wps_crypto_funcs, \
+}
 
 esp_wps_config_t config = WPS_CONFIG_INIT_DEFAULT(ESP_WPS_MODE);
 
