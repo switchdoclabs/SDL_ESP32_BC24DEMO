@@ -7,6 +7,7 @@ www.switchdoc.labs<BR>
 <BR>
 <BR>
 
+Version 008  July 11, 2018:   Fixed ClockTimeOffsetToUTC Bug so it is properly read and stored in preferences.   You will need to hold MODE down during Reset to get the preferences to start recording the default ClockTimeOffsetToUTC.   Change #define DEFAULTCLOCKTIMEOFFSETTOUTC -25200 for your time preferences.  This will be replaced with a REST command in a new version<BR>
 Version 007  June 30, 2018:   Added Kludge to fix latest ESP32 SDK problem<BR>
 Version 006  June 18, 2018:   Added multiple methods for getting IP addresses from WiFi - Provisioning<BR>
 

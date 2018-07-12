@@ -19,8 +19,9 @@ void resetPreferences()
   preferences.clear();
   preferences.end();
 
-
+  ClockTimeOffsetToUTC = DEFAULTCLOCKTIMEOFFSETTOUTC;
   Serial.println("----Clearing Preferences---");
+
 
 }
 
@@ -58,7 +59,7 @@ void readPreferences()
   currentMode = preferences.getUInt("currentMode", 0);
   WiFi_SSID = preferences.getString("WiFi_SSID");
   WiFi_psk = preferences.getString("WiFi_psk");
-  ClockTimeOffsetToUTC = preferences.getInt("COffsetToUTC");
+  ClockTimeOffsetToUTC = preferences.getInt("COffsetToUTC",DEFAULTCLOCKTIMEOFFSETTOUTC);
   preferences.end();
 
 #ifdef BC24DEBUG

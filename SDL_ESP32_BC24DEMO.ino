@@ -4,7 +4,7 @@
 //
 //
 
-#define BC24SOFTWAREVERSION "007"
+#define BC24SOFTWAREVERSION "008"
 #undef BC24DEBUG
 #define BC24
 
@@ -23,7 +23,7 @@
 #define BC24CIRCLEDISPLAY 2
 #define BC24CLOCK 3
 
-
+#define DEFAULTCLOCKTIMEOFFSETTOUTC -25200
 
 
 #define BC24DISPLAYCURRENTMODE 9999
@@ -139,7 +139,7 @@ WiFiServer server(WEB_SERVER_PORT);
 void setup()
 {
 
-  ClockTimeOffsetToUTC = -25200;
+
 
 #ifdef BC24DEBUG
   esp_log_level_set("*", ESP_LOG_VERBOSE);
