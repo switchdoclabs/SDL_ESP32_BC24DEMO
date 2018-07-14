@@ -14,9 +14,9 @@ Version 006  June 18, 2018:   Added multiple methods for getting IP addresses fr
 
 <H2> Requirements for Compiling<H2>
 
-In order to install the Arduino IDE with support for the ESP32 on the BC24, please follow the excellent Adafruit tutorial here:
+In order to install the Arduino IDE with support for the ESP32 on the BC24, please follow the tutorial here:
 
-https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/using-with-arduino-ide
+http://www.switchdoc.com/2018/07/tutorial-arduino-ide-esp32-bc24/
 
 <B>Select the <i>Adafruit ESP32 Feather</i> under Tools</b>
 
