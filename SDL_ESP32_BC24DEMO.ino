@@ -4,7 +4,7 @@
 //
 //
 
-#define BC24SOFTWAREVERSION "008"
+#define BC24SOFTWAREVERSION "009"
 #undef BC24DEBUG
 #define BC24
 

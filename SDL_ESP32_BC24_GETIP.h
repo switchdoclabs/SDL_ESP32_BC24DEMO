@@ -252,7 +252,7 @@ bool localAPGetIP(long apTimeOutSeconds)
   //if it does not connect it starts an access point with the specified name
   wifiManager.setTimeout(apTimeOutSeconds);
   //and goes into a blocking loop awaiting configuration
-  if (!wifiManager.autoConnect(APssid.c_str())) {
+   if (!wifiManager.startConfigPortal(APssid.c_str())) { 
     Serial.println("failed to connect and hit timeout");
 #ifdef BC24
     blinkLED(4, 300);  // blink 4, failed to connect
